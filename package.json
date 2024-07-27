@@ -1,0 +1,44 @@
+{
+  "name": "solanifire",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.6",
+    "drizzle-kit": "0.22.8"
+  },
+  "scripts": {
+      "dev" : "bun run index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@jup-ag/core": "^4.0.0-beta.21",
+    "@metaplex-foundation/mpl-token-metadata": "2.0.0",
+    "@neondatabase/serverless": "^0.9.4",
+    "@project-serum/anchor": "^0.26.0",
+    "@scure/base": "^1.1.7",
+    "@solana-developers/helpers": "^2.3.0",
+    "@solana/wallet-adapter-phantom": "^0.9.24",
+    "@solana/web3.js": "^1.95.1",
+    "@telegraf/session": "^2.0.0-beta.7",
+    "@types/isomorphic-fetch": "^0.0.39",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "axios": "^1.7.2",
+    "bs58": "^6.0.0",
+    "cross-fetch": "^4.0.0",
+    "decimal": "^0.0.2",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.32.1",
+    "isomorphic-fetch": "^3.0.0",
+    "jsbi": "^4.3.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "package.json": "^2.0.1",
+    "pg": "^8.12.0",
+    "redis": "^4.6.15",
+    "telegraf": "^4.16.3",
+    "telegraf-throttler": "^0.6.0"
+  }
+}
